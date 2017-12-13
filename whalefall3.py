@@ -7,7 +7,7 @@ def main():
     conts = [cont for cont in case.containers.list(all)]
 
     for idx,cont in enumerate(conts):
-        print("{}) {}".format(idx,val)
+        print("{}) {}".format(idx,val))
 
 
 main()
