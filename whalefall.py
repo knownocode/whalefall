@@ -1,7 +1,7 @@
 ###########################
 ##
 ##	Dockscan Forensic Analysis Tool
-##	Jay App
+##	Jay App Two
 ##	v.1.0 'Whalefall' release, 12.9.2017
 ##
 ##	A forensic tool for the analysis of a mounted disk image 
