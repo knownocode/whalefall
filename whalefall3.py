@@ -1,10 +1,13 @@
 # Python3 new one
+def main():
+    import docker
 
-import docker
+    case = docker.from_env()
 
-case = docker.from_env()
+    conts = [cont for cont in case.containers.list(all)]
 
-conts = [cont for cont in case.containers.list(all)]
+    for idx,cont in enumerate(conts):
+        print("{}) {}".format(idx,val)
 
-for idx,cont in enumerate(conts):
-    print("{}) {}".format(idx,val)
+
+main()
