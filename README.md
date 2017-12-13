@@ -1,4 +1,3 @@
-###########################
 ##
 ##	Dockscan Forensic Analysis Tool
 ##	Jay
