@@ -1,6 +1,7 @@
-# Python3 new one
+import docker
+import os
+
 def main():
-    import docker
 
     case = docker.from_env()
 
@@ -10,7 +11,7 @@ def main():
         for idx,cont in enumerate(conts):
             print("{}) {} <{}>".format(idx+1, cont.name, cont.short_id))
 
-        choice = input("Detail which container")
+        choice = int(input("Detail which container"))
         if choice == 0:
             break
         else:
