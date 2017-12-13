@@ -7,8 +7,10 @@
 ###	containing a container environment managed by a Docker host
 
 	Point to the docker root directory
-	
+
 	scripted in Python 2.7
   	being ported to Python 3
+
+		some more info
 
 #################################################################
