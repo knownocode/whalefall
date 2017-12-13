@@ -11,6 +11,4 @@
 	scripted in Python 2.7
   	being ported to Python 3
 
-		some more info
-
 #################################################################
